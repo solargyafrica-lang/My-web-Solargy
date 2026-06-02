@@ -1,0 +1,26 @@
+HOW TO USE THIS WEBSITE
+=======================
+
+This is a compiled React website (plain HTML + JavaScript + CSS).
+Do NOT open index.html by double-clicking — it needs a web server.
+
+OPTION 1 — Upload to free hosting (easiest):
+  • Go to https://netlify.com
+  • Drag and drop the entire "solargy-africa-website" folder
+  • Your site goes live instantly with a public URL.
+
+  Other free hosts: Vercel, GitHub Pages, Cloudflare Pages.
+
+OPTION 2 — Run on your computer (requires Node.js):
+  1. Open a terminal in this folder
+  2. Run:  npx serve .
+  3. Open http://localhost:3000 in your browser
+
+OPTION 3 — Run on your computer (requires Python):
+  1. Open a terminal in this folder
+  2. Run:  python -m http.server 3000
+  3. Open http://localhost:3000 in your browser
+
+NOTE: The live vendor data comes from the backend API.
+To have a fully working directory with your own data,
+you will also need to deploy the backend (Express server + PostgreSQL).
